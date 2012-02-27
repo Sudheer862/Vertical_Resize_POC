@@ -1,0 +1,2 @@
+# Module selecttab_vertical_resize
+# RPC service class, partial path of RPC policy file

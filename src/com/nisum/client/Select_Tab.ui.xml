@@ -1,0 +1,82 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'
+	ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
+	ui:generateKeys='com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator'
+	ui:generateLocales='default' xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	
+	
+	
+	<ui:style>
+		
+		.backButton {
+			background-repeat: no-repeat;
+			background-position: center;
+			position: center
+		}
+		
+		.searchButton {
+			background-repeat: no-repeat;
+			background-position: center; 
+			position: center
+		}
+		
+	</ui:style>
+
+	<g:HTMLPanel height="939" width="678">
+		<g:AbsolutePanel height="575px" styleName="mainPanel"  ui:field="mainPanel1" width="642px">
+			<g:at left="10" top="32">
+				<g:Label text="Available:"/>
+			</g:at>
+			<g:at left="370" top="32">
+				<g:Label text="Selected:"/>
+			</g:at>
+			<g:at left="307" top="209">
+				<g:Button ui:field="rightMoveBtn" text="&gt;" width="50px" height="24px"/>
+			</g:at>
+			<g:at left="307" top="362">
+				<g:Button ui:field="matchBtn" text="Match  " width="50px" height="24px"/>
+			</g:at>
+			<g:at left="307" top="320">
+				<g:Button ui:field="andOrBtn" text="And/Or" width="50px" height="24px"/>
+			</g:at>
+			<g:at left="307" top="252">
+				<g:Button ui:field="leftMoveBtn" text="&lt;" width="50px" height="24px"></g:Button>
+			</g:at>
+			<g:at left="10" top="56">
+			<g:TextArea></g:TextArea>
+			</g:at>
+			<g:at left="10" top="56">
+				<g:AbsolutePanel ui:field="leftSideParameterCodesListPanel" width="283px" height="509px" styleName="mainPanel">
+					<g:at left="0" top="0">
+						<g:ScrollPanel alwaysShowScrollBars="false" width="283px" height="460px">
+							<p1:CellTable ui:field="leftSideParameterCodesTable" width="265px" height="42px" pageSize="1000" tableLayoutFixed="true" rowCount="29" focus="true" keyboardPagingPolicy="INCREASE_RANGE" tabIndex="1"/>
+						</g:ScrollPanel>
+					</g:at>
+						<g:at left="25" top="461">
+						<g:TextArea></g:TextArea>
+					  	</g:at>
+				</g:AbsolutePanel>
+			</g:at>
+			<g:at left="173" top="28">
+				<g:Button width="57px" height="22px" styleName="{style.backButton}" ui:field="returnBtn" text="Return"/>
+			</g:at>
+			<g:at left="370" top="56">
+				<g:AbsolutePanel width="260px" height="509px" styleName="mainPanel" ui:field="rightsidePanel" >
+					<g:at left="0" top="0">
+						<g:ScrollPanel width="260px" height="509px">
+					
+				</g:ScrollPanel>
+					</g:at>
+				</g:AbsolutePanel>
+			</g:at>
+			<g:at left="10" top="8">
+				<g:Label text="" ui:field="parameterLbl"/>
+			</g:at>
+			<g:at left="236" top="28">
+				<g:Button width="57px" height="22px" styleName="{style.searchButton}" ui:field="searchBtn" text="Search"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder>

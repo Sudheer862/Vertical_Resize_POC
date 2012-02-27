@@ -1,0 +1,710 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+body, table td, select {
+    font-family: Arial, sans-serif;
+    font-size: 9pt;
+}
+
+body {
+    color: black;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background: #fff;
+    direction: ltr;
+}
+
+.mainPanel {
+    border: 1px solid #2291c8;
+}
+
+.pageHeader {
+    background: white;
+/*url(headerTitleBG.png) repeat-x;*/
+    color: black;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 4px;
+    height: 22px;
+    vertical-align: middle;
+    font-size: 14pt;
+    font-family: arial;
+}
+
+.labelError {
+    color: red;
+}
+
+.labelStyle {
+    color: black;
+}
+
+.pageContent {
+    /*  	background: #e1e1e1;  */
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.pagerPanel {
+    border-top: 1px solid #000;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+    spacing: 0px;
+    text-align: right;
+}
+
+.simplePager {
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+    spacing: 0px;
+    text-align: right;
+}
+
+.footerPanel {
+    margin: 0px;
+    padding: 5px;
+    text-align: right;
+    background-color: #ffffff;
+    font-size: smaller;
+}
+
+.headerPanel1 {
+    font-weight: bold;
+    font-size: large;
+    font-family: helvetica;
+    margin-left: 0px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+.headerPanel2 {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.westPanel {
+    padding: 0px;
+    border: 1px solid #2291c8;
+    background-color: #ffffff;
+}
+
+.messageList {
+    width: 100%;
+    padding: 10px;
+}
+
+.titleBar {
+    background-color: #e0e0e0;
+    color: #000000;
+    padding-left: 5px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+
+.searchText {
+    background: #FFFFFF url(zoom.png) no-repeat 3px;
+    padding: 3px 3px 3px 24px;
+    border: 1px solid #7F9DB9;
+    margin: 5px;
+    float: right;
+    vertical-align: middle;
+}
+
+.pagerPanel {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.toolbarPanel {
+    background: #e1e1e1;
+    vertical-align: middle;
+    /* 	border-top: 1px solid #000; */
+    border-bottom: 1px solid #000;
+    white-space: nowrap;
+}
+
+.toolbarButtonPanel {
+    display: inline;
+    margin-top: 8px;
+    margin-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    float: left;
+}
+
+.treeToolbarPanel {
+    background: #e1e1e1;
+    border-bottom: 1px solid #000;
+}
+
+.treeToolbarButtonPanel {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.treeButtonPanel {
+    margin-top: 8px;
+    margin-left: 5px;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.treeLinks {
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-color: #004785;
+    color: #004785;
+    cursor: hand;
+}
+
+.topBorder {
+    border-top: 1px solid #000;
+}
+
+.bottomBorder {
+    overflow-x: visible;
+
+}
+
+.button {
+    padding: 0px 5px 0px 5px;
+    margin: 0px 10px 0px 0px;
+    width: auto !important;
+    overflow: visible;
+    /*	cursor: pointer;
+     cursor: hand;*/
+}
+
+.toolbarButton2a {
+    padding: 4px 8px;
+    background: #eee;
+    vertical-align: baseline;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin: 0px;
+    cursor: pointer;
+    cursor: hand;
+    border: 1px solid #ccc;
+}
+
+.toolbarButton2b {
+    padding: 4px 8px;
+    background: #eee;
+    vertical-align: baseline;
+    margin: 0px;
+    cursor: pointer;
+    cursor: hand;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left-width: 0px;
+}
+
+.toolbarButton2c {
+    padding: 4px 8px;
+    background: #eee;
+    vertical-align: baseline;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    margin: 0px;
+    cursor: pointer;
+    cursor: hand;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left-width: 0px;
+}
+
+.dialogForm {
+    padding: 10px;
+    text-align: left;
+    float: left;
+}
+
+.dialogButtonPanel {
+    float: left;
+    text-align: left;
+    padding: 5px;
+    white-space: nowrap;
+    background: #e1e1e1;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.dialogButtonPanel2 {
+    float: left;
+    text-align: left;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.formPanel {
+    /*	margin: 10px;*/
+    /*	padding: 2px;*/
+    /*	background-color: blue;*/
+
+}
+
+.formTable {
+    /*    border: 1px solid #c1c1c1;
+   padding: 1px;*/
+
+}
+
+.formTableCell-0 {
+    /*    background: #eee;
+   border-right-width: 1px;
+   border-right-color: #ccc;
+   border-right-style: solid;
+   border-top-width: 1px;
+   border-top-color: #fff;
+   border-top-style: solid;*/
+    padding: 5px;
+    padding-top: 5px;
+    text-align: left;
+    width: 200px;
+    white-space: normal;
+}
+
+.formTableCell-0-ListBox {
+    padding: 5px;
+    padding-top: 8px;
+    text-align: left;
+    vertical-align: top;
+    width: 220px;
+    white-space: normal;
+}
+
+.formTableCell-1 {
+    padding: 5px;
+    width: 200px;
+    vertical-align: top;
+    white-space: normal;    
+}
+
+.formTableCell-2 {
+    padding: 5px;
+    margin-left: 5px;
+    width: 10px;
+    vertical-align: center;   
+}
+
+.formTableCell-3 {
+    padding: 5px;
+    width: 200px;
+    vertical-align: top;
+    white-space: normal;   
+}
+
+.formTableCell-0a {
+    padding: 7px;
+    text-align: left;
+    width: 200px;
+}
+
+.formTableCell-0a-ListBox {
+    padding: 7px;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+}
+
+.formTableCell-1a {
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.formTableCell-0b {
+    padding: 7px;
+    text-align: left;
+    width: 300px;
+}
+
+.formTableCell-0b-ListBox {
+    padding: 7px;
+    text-align: left;
+    vertical-align: top;
+    width: 300px;
+}
+
+.formSectionLabel {
+    font-weight: bold;
+    padding: 7px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.droppableHover {
+    background-color: #C1DEFD;
+}
+
+.gwt-SplitLayoutPanel-HDragger, .gwt-SplitLayoutPanel-VDragger {
+    background-color: #ffffff;
+}
+
+.gwt-Tree .gwt-TreeItem {
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+    cursor: hand;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.gwt-TreeItem .gwt-TreeItem-selected {
+    background: #3f8dd1;
+    color: orange;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+    cursor: hand;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.gwt-Tree .gwt-TreeItem-selected {
+    background: #3f8dd1;
+    color: white;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+    cursor: hand;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.gwt-DialogBox .Caption {
+    font-weight: bold;
+}
+
+    /*.gwt-DialogBox {
+        border: 1px solid #8ca9e1;
+        background: #ffffff;
+        -moz-box-shadow: 0px 5px 10px rgba(0,0,0,0.8);
+        -webkit-box-shadow: 0px 5px 10px rgba(0,0,0,0.8);
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.8);
+    }
+
+    .gwt-DialogBox .Caption {
+        background: none;
+        font-weight: bold;
+        height: 31px;
+        border-bottom: 1px solid #8ca9e1;
+        padding: 4px 0px 0px 8px;
+        border: none;
+    }
+
+    .gwt-DialogBox .dialogContent {
+    }
+    .gwt-DialogBox .dialogMiddleCenter {
+      padding: 0px;
+      background: white;
+    }
+    .gwt-DialogBox .dialogBottomCenter {
+      background: url(noimage);
+    }
+    .gwt-DialogBox .dialogMiddleLeft {
+      background: url(noimage);
+    }
+    .gwt-DialogBox .dialogMiddleRight {
+      background: url(noimage);
+    }
+    .gwt-DialogBox .dialogTopCenter {
+        background: none;
+        border: none;
+    }
+
+    .gwt-DialogBox .dialogTop {
+        background: #ffffff url(dialog_header.png) repeat-x;
+        border: none;
+    }
+
+    .gwt-DialogBox .dialogBottomLeftInner {
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogBottomRightInner {
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogTopLeft {
+      background: #ffffff url(dialog_header.png) repeat-x;
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogTopRight {
+      background: none;
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogBottomLeft {
+      background: none;
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogBottomRight {
+      background: none;
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogTopLeftInner {
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogTopRightInner {
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogBottomLeftInner {
+      width: 0px;
+      height: 0px;
+    }
+    .gwt-DialogBox .dialogBottomRightInner {
+      width: 0px;
+      height: 0px;
+      overflow: hidden;
+    }*/
+
+.gwt-Button {
+    margin: 0;
+    padding: 3px 5px;
+    text-decoration: none;
+    font-size: small;
+    cursor: pointer;
+    cursor: hand;
+}
+
+    /* .gwt-TreeItem .gwt-RadioButton input,.gwt-TreeItem .gwt-CheckBox input { */
+    /* 	margin-left: 0px; */
+    /* } */
+    /* .gwt-SimplePager .pageDetails { */
+    /*   padding: 4px 4px; */
+    /*   text-align: center; */
+    /* } */
+    /* .gwt-SimplePager .button { */
+    /*   padding: 4px; */
+    /*   cursor: pointer; */
+    /*   cursor: hand; */
+    /* } */
+    /* .gwt-SimplePager .disabledButton { */
+    /*   cursor: default;    */
+    /* } */
+    /* .gwt-Button { */
+    /*   padding: 2px 2px 2px 2px; */
+    /*   font-size: small; */
+    /*   cursor: pointer; */
+    /*   cursor: hand; */
+    /*   border: 1px outset #ccc; */
+    /* } */
+    /* .gwt-Button:active { */
+    /*   border: 1px inset #ccc; */
+    /* } */
+    /* .gwt-Button:hover { */
+    /*   border-color: #9cf #69e #69e #7af; */
+    /* } */
+    /* .gwt-Button */
+    /* [ disabled ] { */
+    /*   cursor: default; */
+    /*   color: #888; */
+    /* } */
+    /* .gwt-Button */
+    /* [ disabled ]:hover { */
+    /*   border: 1px outset #ccc; */
+    /* } */
+.gwt-Button, /* up toggle states*/
+.gwt-ToggleButton-up, .gwt-ToggleButton-up-hovering, .gwt-ToggleButton-up-disabled,
+    /* down toggle states*/
+.gwt-ToggleButton-down, .gwt-ToggleButton-down-hovering, .gwt-ToggleButton-down-disabled {
+    /*   margin: 0; */
+    /*   text-decoration: none; */
+    /*   background: url("gwt/standard/images/hborder.png") repeat-x 0px -27px; */
+
+}
+
+    /* .gwt-ToggleButton-up, .gwt-ToggleButton-up-hovering, .gwt-ToggleButton-up-disabled { */
+    /*   padding: 2px 2px 2px 2px; */
+    /* } */
+.gwt-ToggleButton-up {
+    /*   border: 1px outset #ccc; */
+    /*   cursor: pointer; */
+    /*   cursor: hand; */
+
+}
+
+.gwt-ToggleButton-up-hovering {
+    /*   border: 1px outset; */
+    /*   border-color: #9cf #69e #69e #7af; */
+    /*   cursor: pointer; */
+    /*   cursor: hand; */
+
+}
+
+.gwt-ToggleButton-up-disabled {
+    /*   border: 1px outset #ccc; */
+    /*   cursor: default; */
+    /*   opacity: .5; */
+    /*   zoom: 1; */
+
+}
+
+.gwt-ToggleButton-down, .gwt-ToggleButton-down-hovering, .gwt-ToggleButton-down-disabled {
+    /*   padding: 2px 2px 2px 2px; */
+
+}
+
+.gwt-ToggleButton-down {
+    /*   background-position: 0 -513px; */
+    /*   border: 1px inset #ccc; */
+    /*   cursor: pointer; */
+    /*   cursor: hand; */
+
+}
+
+.gwt-ToggleButton-down-hovering {
+    /*   background-position: 0 -513px; */
+    /*   border: 1px inset; */
+    /*   border-color: #9cf #69e #69e #7af; */
+    /*   cursor: pointer; */
+    /*   cursor: hand; */
+
+}
+
+.gwt-ToggleButton-down-disabled {
+    /*   background-position: 0 -513px; */
+    /*   border: 1px inset #ccc; */
+    /*   cursor: default; */
+    /*   opacity: .5; */
+    /*   zoom: 1; */
+
+}
+
+a, a:visited, a:hover {
+    color: #004785;
+}
+
+/** the individual tab in the tab bar */
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTab {
+    margin-left: 4px;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+    cursor: hand;
+    color: #ffffff;
+    font-weight: normal;
+    border: solid 1px #2291c8;
+    text-align: center;
+    background: #9f9f9f;
+    -moz-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+
+.gwt-TabLayoutPanel {
+}
+
+/** the tab bar */
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs {
+    background: #ffffff;
+    padding-top: 6px;
+    padding-left: 5px;
+    /*margin-bottom: -2px;*/
+}
+
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelContentContainer {
+    border-color: #ccc;
+    border-style: none;
+
+    border-width: 0px;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelContent {
+    overflow: hidden;
+    padding: 0px;
+}
+
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTab-selected {
+    cursor: default;
+    background: #ffffff;
+    color: #333;
+    border-left: solid 1px #2291c8;
+    border-top: solid 1px #2291c8;
+    border-right: solid 1px #2291c8;
+    border-bottom: none 0px;
+    font-weight: bold;
+}
+
+.disableSelect {
+    background: #ffffff;
+    color: black;
+    border: solid white 2px;
+}
+
+.reportQueueLink
+{
+	cursor: pointer;
+	cursor: hand;
+	margin-bottom: 10px;
+	margin-right: 10px;	
+	margin-left: 5px;
+	text-decoration: underline;	
+}
+
+.reportQueueLink:hover
+{
+	text-decoration: underline;
+}
+
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
