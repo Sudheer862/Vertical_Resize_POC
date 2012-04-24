@@ -128,6 +128,8 @@ public class SelectTab_Vertical_Resize implements EntryPoint {
 		//commit 3
 		
 		//commit 4
+		
+		//commit 5
 		Window.addResizeHandler(new ResizeHandler() {
 
 			@Override
