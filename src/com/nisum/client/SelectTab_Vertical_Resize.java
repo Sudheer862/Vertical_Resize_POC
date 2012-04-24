@@ -125,7 +125,7 @@ public class SelectTab_Vertical_Resize implements EntryPoint {
 		setupSize(Window.getClientHeight());
 		RootLayoutPanel.get().add(tab);
 		
-		
+		//commit 3
 		Window.addResizeHandler(new ResizeHandler() {
 
 			@Override
