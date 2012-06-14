@@ -1,4 +1,4 @@
 sample smaple2* * * * * cd /apps/gitrepositories/sudheer/gitsync/Vertical_Resize_POC.git && git fetch origin && git reset refs/remotes/origin/master >> /apps/gitrepositories/sudheer/sample.log
 
 
-commit 4 commit5 comit555 sample3e
+commit 4 commit5 comit555 sample3esudo expects you to input your password
