@@ -1,1 +1,1 @@
-sample smaple2
+sample smaple2* * * * * cd /apps/gitrepositories/sudheer/gitsync/Vertical_Resize_POC.git && git fetch origin && git reset refs/remotes/origin/master >> /apps/gitrepositories/sudheer/sample.log
