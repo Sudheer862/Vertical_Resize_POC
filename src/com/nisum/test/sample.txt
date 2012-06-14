@@ -2,3 +2,4 @@ sample smaple2* * * * * cd /apps/gitrepositories/sudheer/gitsync/Vertical_Resize
 
 
 commit 4 commit5 comit555 sample3esudo expects you to input your password
+>>> sudoers file: syntax error, line 57 <<<
