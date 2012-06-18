@@ -1,5 +1,10 @@
-sample smaple2* * * * * cd /apps/gitrepositories/sudheer/gitsync/Vertical_Resize_POC.git && git fetch origin && git reset refs/remotes/origin/master >> /apps/gitrepositories/sudheer/sample.log
+fvfegvfevsample smaple2* * * * * cd /apps/gitrepositories/sudheer/gitsync/Vertical_Resize_POC.git && git fetch origin && git reset refs/remotes/origin/master >> /apps/gitrepositories/sudheer/sample.log
 
 
 commit 4 commit5 comit555 sample3esudo expects you to input your password
->>> sudoers file: syntax error, line 57 <<<ddasdefew
+>>> sudoers file: syntax error, line 57 <<<
+>>> sudoers file: syntax error, line 57 <<<
+
+commit 4 commit5 comit555 sample3esudo expects you to input your password
+>>> sudoers file: syntax error, line 57 <<<
+>>> sudoers file: syntax error, line 57 <<<
